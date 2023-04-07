@@ -29,7 +29,7 @@ export class ProductsController {
   getOne(@Param('id') id: string) {
     return {
       message: `product ${id}`,
-    }
+    };
   }
 
   @Post()
